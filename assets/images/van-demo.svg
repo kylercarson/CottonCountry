@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#cadfe0" />
+      <stop offset=".6" stop-color="#f8d5a9" />
+      <stop offset="1" stop-color="#e5a678" />
+    </linearGradient>
+    <linearGradient id="body" x2="0" y2="1">
+      <stop stop-color="#fff" />
+      <stop offset="1" stop-color="#bdcbd1" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1000v800H0z" />
+  <circle cx="710" cy="330" r="76" fill="#fff4d6" />
+  <path d="M0 470q250-80 480 0t520-10v340H0" fill="#718681" />
+  <path d="M0 560q270-55 1000 40v200H0" fill="#183c4b" />
+  <path d="M350 800 690 545h40L580 800" fill="#f9ecce" opacity=".4" />
+  <g stroke="#2a4858" stroke-linecap="round" fill="none">
+    <path
+      d="M858 465V186l-32 279m32-279 33 279m-60-70h55m-48-76h42"
+      stroke-width="5"
+    />
+    <circle
+      cx="858"
+      cy="169"
+      r="46"
+      stroke-width="15"
+      stroke-dasharray="11 7"
+    />
+    <path d="M858 169h85" stroke-width="3" />
+  </g>
+  <ellipse cx="481" cy="679" rx="355" ry="38" fill="#082a3d" opacity=".4" />
+  <path
+    d="M145 589 160 421q12-57 77-59h290q66 2 114 71l63 41q54 18 64 56l8 85H137Z"
+    fill="url(#body)"
+    stroke="#8d9ea7"
+    stroke-width="3"
+  />
+  <path d="m192 430 12-37h315q32 2 59 43l37 47H187Z" fill="#173c50" />
+  <path
+    d="M350 387v103m135-103 20 103m-154 8v106m178-103 20 110"
+    stroke="#aab8be"
+    stroke-width="5"
+  />
+  <path d="M625 487 661 505H550l-22-49" fill="#315465" />
+  <path d="m688 520 58 13 7 23-57-12" fill="#fff4bf" />
+  <path d="M692 567h72v36h-69" fill="#173c50" />
+  <path d="M143 608h623v22H143" fill="#8b9fa9" />
+  <g fill="#133345" stroke="#dbe2e4" stroke-width="12">
+    <circle cx="260" cy="632" r="56" />
+    <circle cx="621" cy="632" r="56" />
+  </g>
+  <g fill="#849ba6">
+    <circle cx="260" cy="632" r="23" />
+    <circle cx="621" cy="632" r="23" />
+  </g>
+  <text
+    x="365"
+    y="550"
+    fill="#143d53"
+    font-family="Georgia"
+    font-size="23"
+    text-anchor="middle"
+  >
+    COTTON COUNTRY
+  </text>
+  <text
+    x="365"
+    y="574"
+    fill="#168a9b"
+    font-family="Arial"
+    font-size="14"
+    letter-spacing="5"
+    text-anchor="middle"
+  >
+    TRANSPORTATION
+  </text>
+  <path d="M354 508h22m-199 17h23" stroke="#839da9" stroke-width="5" />
+  <text
+    x="45"
+    y="755"
+    font-family="Arial"
+    font-size="16"
+    fill="#e0ebeb"
+    letter-spacing="3"
+  >
+    WEST TEXAS • EVERY MILE
+  </text>
+</svg>

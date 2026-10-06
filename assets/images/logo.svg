@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <path
+    d="M32 8c-9-12-22 0-18 9C0 19 6 37 18 36c1 11 17 14 23 4 13 4 22-11 13-20C56 7 41 1 32 8Z"
+    fill="#f9f4e9"
+    stroke="#123449"
+    stroke-width="3"
+  />
+  <path
+    d="M32 52V26m0 15L21 29m11 12 11-12"
+    stroke="#97704b"
+    stroke-width="4"
+    fill="none"
+  />
+  <path
+    d="M6 54q27-15 51-5M15 60q20-9 39-6"
+    stroke="#168a9b"
+    stroke-width="3"
+    fill="none"
+  />
+</svg>

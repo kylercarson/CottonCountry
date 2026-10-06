@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#cadfe0" />
+      <stop offset=".6" stop-color="#f8d5a9" />
+      <stop offset="1" stop-color="#e5a678" />
+    </linearGradient>
+    <linearGradient id="body" x2="0" y2="1">
+      <stop stop-color="#fffdf8" />
+      <stop offset=".5" stop-color="#e9eef0" /><stop offset="1" stop-color="#a5b7c1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="481" cy="679" rx="355" ry="38" fill="#082a3d" opacity=".4" />
+  <path d="M145 589 158 428q5-53 58-65 150-15 311-1 57 1 99 52l47 57q76 17 88 57l9 79q0 19-26 22H160q-27-4-23-29Z" fill="url(#body)" stroke="#8d9ea7" stroke-width="3" />
+  <path d="M210 355q145-10 298-2" stroke="#557080" stroke-width="5" fill="none"/><path d="m192 430 12-37h315q32 2 59 43l37 47H187Z" fill="#173c50" />
+  <path d="M350 387v103m135-103 20 103m-154 8v106m178-103 20 110" stroke="#aab8be" stroke-width="5" />
+  <path d="M625 487 661 505H550l-22-49" fill="#315465" />
+  <path d="m688 520 58 13 7 23-57-12" fill="#fff4bf" />
+  <path d="M692 567h72v36h-69" fill="#173c50" />
+  <path d="M143 608h623v22H143" fill="#8b9fa9" />
+  <g fill="#133345" stroke="#dbe2e4" stroke-width="12">
+    <circle cx="260" cy="632" r="56" />
+    <circle cx="621" cy="632" r="56" />
+  </g>
+  <g fill="#849ba6">
+    <circle cx="260" cy="632" r="23" />
+    <circle cx="621" cy="632" r="23" />
+  </g>
+  <text x="365" y="550" fill="#143d53" font-family="Georgia" font-size="23" text-anchor="middle">
+    COTTON COUNTRY
+  </text>
+  <text x="365" y="574" fill="#168a9b" font-family="Arial" font-size="14" letter-spacing="5" text-anchor="middle">
+    TRANSPORTATION
+  </text>
+  <path d="M195 403h120l-52 65h-75Z" fill="#91b8c6" opacity=".22"/><path d="M379 393h90l-54 81h-50Z" fill="#fff" opacity=".12"/><path d="m562 459 51 22h-32Z" fill="#bcd5de" opacity=".5"/><path d="M155 587q180 13 381 0M177 609h377" fill="none" stroke="#8aa2af" stroke-width="2"/><path d="M552 497h34q14 5 14 16l-36 3Z" fill="#c5d3da" stroke="#8199a5" stroke-width="2"/><path d="M698 576h58m-58 7h58m-57 7h55" stroke="#819aa5" stroke-width="2"/><rect x="720" y="596" width="25" height="10" rx="2" fill="#ebeff0"/><path d="M151 528v27" stroke="#c94f45" stroke-width="7"/><circle cx="260" cy="632" r="39" fill="none" stroke="#a0b3bd" stroke-width="3"/><path d="M260 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(0 260 632)"/><path d="M260 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(60 260 632)"/><path d="M260 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(120 260 632)"/><path d="M260 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(180 260 632)"/><path d="M260 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(240 260 632)"/><path d="M260 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(300 260 632)"/><circle cx="260" cy="632" r="10" fill="#d4dfe3"/><circle cx="621" cy="632" r="39" fill="none" stroke="#a0b3bd" stroke-width="3"/><path d="M621 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(0 621 632)"/><path d="M621 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(60 621 632)"/><path d="M621 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(120 621 632)"/><path d="M621 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(180 621 632)"/><path d="M621 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(240 621 632)"/><path d="M621 619v-22m0 48v22" stroke="#b9c8d0" stroke-width="6" stroke-linecap="round" transform="rotate(300 621 632)"/><circle cx="621" cy="632" r="10" fill="#d4dfe3"/><path d="M354 508h22m-199 17h23" stroke="#839da9" stroke-width="5" />
+</svg>
