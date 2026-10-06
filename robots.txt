@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cottoncountrytransport.com/sitemap.xml
+Sitemap: https://kylercarson.github.io/CottonCountry/sitemap.xml
