@@ -11,7 +11,7 @@ if url.scheme != 'https' or not url.netloc or url.query or url.fragment:
     raise SystemExit('Use a complete HTTPS site URL without query strings or fragments.')
 marker = root / 'site-url.txt'
 old = marker.read_text().strip()
-for path in list(root.glob('*.html')) + [root / 'sitemap.xml', root / 'robots.txt']:
+for path in list(root.rglob('*.html')) + [root / 'sitemap.xml', root / 'robots.txt']:
     path.write_text(path.read_text().replace(old, new))
 marker.write_text(new + '\n')
 print('Updated canonical, social, schema, sitemap, robots, and 404 URLs to', new)

@@ -103,3 +103,8 @@ The code strips query strings/fragments from page locations sent to GA4 and does
 - Run PageSpeed Insights, schema/social-preview checks, phone tests, and HTTPS redirect checks against the deployed site. Search visibility is not guaranteed.
 
 The current hero uses an AI-edited transparent cutout based on the brochure van (`brochure-van.png`) and a photorealistic generated cotton-field sunset background (`cotton-field-sunset.png`). Windmill and irrigation pivot remain in the background. The van stays an independent animated layer.
+
+## Clean page URLs
+Secondary pages now live at `PAGE-NAME/index.html`, so public URLs end in `/` instead of `.html`. Upload each new folder alongside the homepage and assets. The old root `.html` files are small redirect pages; replace those files too to preserve existing links. GitHub Pages serves these as browser redirects, not HTTP 301 redirects.
+
+All URLs currently target https://kylercarson.github.io/CottonCountry/. When connecting your final domain, run `python3 scripts/set_site_url.py https://cottoncountrytransport.com/` and commit the changes. The script updates nested pages as well. Existing form endpoints and contact settings were preserved from your uploaded code.

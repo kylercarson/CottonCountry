@@ -1,5 +1,6 @@
 // Optional GA4 analytics. No analytics script loads until the visitor opts in.
 (() => {
+  const privacyUrl = new URL("../../privacy/", document.currentScript.src).href;
   const id = window.COTTON_COUNTRY_CONFIG?.gaMeasurementId || "";
   if (!/^G-[A-Z0-9]+$/.test(id)) return;
   const storageKey = "cotton-analytics-choice";
@@ -87,7 +88,7 @@
   banner.className = "analytics-banner";
   banner.setAttribute("aria-label", "Optional analytics preferences");
   banner.innerHTML =
-    '<p>May we use optional analytics to understand website visits and clicks on our call buttons? Forms and phone links work either way. <a href="privacy.html">Privacy details</a></p><div class="choices"><button class="button" type="button" data-allow>Allow analytics</button><button class="button decline" type="button" data-decline>No thanks</button></div>';
+    '<p>May we use optional analytics to understand website visits and clicks on our call buttons? Forms and phone links work either way. <a href="' + privacyUrl + '">Privacy details</a></p><div class="choices"><button class="button" type="button" data-allow>Allow analytics</button><button class="button decline" type="button" data-decline>No thanks</button></div>';
   banner
     .querySelector("[data-allow]")
     .addEventListener("click", () => choose("allow"));
